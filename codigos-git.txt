@@ -9,3 +9,6 @@ comitar - git commit - m + "descrição"
 colocar alteracoes na branch master - git merge + nome da branch
 excluir branch - git branch -D + nome da branch
 git remote add + apelido + URL copiada do github - conectar ao github
+fazer push - git push origin master
+
+
