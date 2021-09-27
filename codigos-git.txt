@@ -1,0 +1,11 @@
+comandos:
+iniciar git em um diretório - git init
+volta do git branch - Q
+criar uma branch - git branch + nome da branch
+mudar de branch - git checkout + nome da branch
+ver os branch - git branch
+preparar as alteracoes para a area de stage - add + nome do arquivo
+comitar - git commit - m + "descrição"
+colocar alteracoes na branch master - git merge + nome da branch
+excluir branch - git branch -D + nome da branch
+git remote add + apelido + URL copiada do github - conectar ao github
