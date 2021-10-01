@@ -1,14 +1,27 @@
 comandos:
-iniciar git em um diretório - git init
-volta do git branch - Q
-criar uma branch - git branch + nome da branch
-mudar de branch - git checkout + nome da branch
-ver os branch - git branch
-preparar as alteracoes para a area de stage - add + nome do arquivo
-comitar - git commit - m + "descrição"
-colocar alteracoes na branch master - git merge + nome da branch
-excluir branch - git branch -D + nome da branch
-git remote add + apelido + URL copiada do github - conectar ao github
-fazer push - git push origin master
+iniciar git em um diretório - git init;
+volta do git branch - Q;
+criar uma branch - git branch + nome da branch;
 
 
+mudar de branch - git checkout + nome da branch;
+ver os branch - git branch;
+preparar as alteracoes para a area de stage - add + nome do arquivo;
+comitar - git commit - m + "descrição";
+colocar alteracoes na branch master - git merge + nome da branch;
+excluir branch - git branch -D + nome da branch;
+git remote add + apelido + URL copiada do github - c;onectar ao github
+fazer push para github de clone - git push -u origin + nome da branch;
+criar clone de qualquer repositório - git clone + URL;
+comando que ver os commits que foram feitos detalhadamente- git log;
+remover arquivos - git rm + nome do arquivo + comiitar;
+reciclar arquivo apagado - git log --dif-filter=D --sumary( pegar os 4 primeiros caracteres) + git checkout + os 4 caracteres~1 + comiitar;
+ignorar arquivos que nao quer adicionar - cria um arquivo .gitignore e adiciona o que nao ter que apreça (ex: txt ou nome do arquivo especifico ou diretório) com o cat.
+enviar alteracoes para a branch master - git merge
+apagar - git branch -d + branch
+git pull - puxa as informacoes que estao alterads no repositorio local
+acessar branch do github - git checkout lecture/+ nome da branch
+git push -u origin + nome da branch
+ git checkout master .\index.html - trazer arquivos atualizados da branche master do github para a sua branch
+ git checkout -b + nome da branch - criar branch e ir direto pra ela
+ 
